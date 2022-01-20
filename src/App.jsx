@@ -46,7 +46,7 @@ useEffect(() => {
     return;
   }
   
-  // Just like we did in the 7-airdrop-token.js file! Grab the users who hold our NFT
+  // Just like we did in the airdrop-token.js file! Grab the users who hold our NFT
   // with tokenId 0.
   bundleDropModule
     .getAllClaimerAddresses("0")

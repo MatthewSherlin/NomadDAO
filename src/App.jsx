@@ -197,6 +197,7 @@ useEffect(() => {
   //Member Splash Page
   //If the user has already claimed their NFT we want to display the interal DAO page to them
   //only DAO members will see this. Render all the members + token amounts.
+
 if (hasClaimedNFT) {
   return (
     <div className="member-page">

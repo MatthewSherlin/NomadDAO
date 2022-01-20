@@ -15,7 +15,7 @@ const tokenModule = sdk.getTokenModule(
     try {
       // Grab all the addresses of people who own our membership NFT, which has 
       // a tokenId of 0.
-      const walletAddresses = [] //change value to specific wallet;
+      const walletAddresses = ["0x68B5634b62e77AA5eb8467FC92DBa8f337a30dEa"] //change value to specific wallet;
     
       if (walletAddresses.length === 0) {
         console.log(
